@@ -148,6 +148,7 @@ nav a:hover {
 .car-brands h2 {
     margin-bottom: 40px;
     font-size: 1.8rem;
+    color: #00ffff;
 }
 
 .brand-header {
@@ -165,9 +166,9 @@ nav a:hover {
 
 .brand-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 240px);
     gap: 30px;
-    max-width: 1000px;
+    justify-content: center;
     margin: auto;
 }
 
@@ -198,6 +199,18 @@ nav a:hover {
     transition: .3s ease;
 
 }
+img[alt="Audi Logo"] {
+    width: 150px;
+}
+
+img[alt="Honda Logo"] {
+    width: 150px;
+}
+
+img[alt="Toyota Logo"] {
+    width: 130px;
+}
+
 
 .brand-card span {
     color: white;
@@ -220,4 +233,5 @@ nav a:hover {
 
 .brand-card:hover span{
     color: #00ffff;
+
 }
