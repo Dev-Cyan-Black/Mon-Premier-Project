@@ -715,7 +715,7 @@ img[alt="Alpine A390 GT"] {
   /* ---------MOBILE BRAND CARDS----------- */
 
   .brand-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 160px);
     gap: 15px;
     width: 100%;
     max-width: 400px;
