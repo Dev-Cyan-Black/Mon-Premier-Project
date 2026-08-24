@@ -183,7 +183,7 @@ nav a:hover {
     gap: 30px;
     justify-content: center;
     margin: auto;
-    margin-bottom: 120px;
+    margin-bottom: 30px;
 }
 
 .brand-card {
@@ -234,4 +234,208 @@ nav a:hover {
 
 .brand-card:hover span {
     color: #00ffff;
+}
+
+img[alt="Acura Logo"] {
+    width: 160px;
+}
+
+img[alt="Alfa-Romeo Logo"] {
+    width: 160px;
+}
+
+img[alt="Aston Martin Logo"] {
+    width: 160px;
+}
+
+img[alt="Audi Logo"] {
+    width: 150px;
+}
+
+img[alt="Bently Logo"] {
+    width: 150px;
+}
+
+img[alt="Bugatti Logo"] {
+    width: 150px;
+}
+
+img[alt="BYD Logo"] {
+    width: 150px;
+}
+
+img[alt="Cadillac Logo"] {
+    width: 140px;
+}
+
+img[alt="Chevrolet Logo"] {
+    width: 150px;
+}
+
+img[alt="Chrysler Logo"] {
+    width: 190px;
+}
+
+img[alt="Dodge Logo"] {
+    width: 160px;
+}
+
+img[alt="Ford Logo"] {
+    width: 150px;
+}
+
+img[alt="Genesis Logo"] {
+    width: 160px;
+}
+
+img[alt="Geely Logo"] {
+    width: 140px;
+}
+
+img[alt="Honda Logo"] {
+    width: 160px;
+}
+
+img[alt="Hyundai Logo"] {
+    width: 140px;
+}
+
+img[alt="Infiniti Logo"] {
+    width: 140px;
+}
+
+img[alt="Jaguar Logo"] {
+    width: 160px;
+}
+
+img[alt="Jeep Logo"] {
+    width: 150px;
+}
+
+img[alt="KIA Logo"] {
+    width: 150px;
+}
+
+img[alt="Land-Rover Logo"] {
+    width: 160px;
+}
+
+img[alt="Lexus Logo"] {
+    width: 160px;
+}
+
+img[alt="Lotus Logo"] {
+    width: 160px;
+}
+
+img[alt="Lucid-Motors Logo"] {
+    width: 170px;
+}
+
+img[alt="Maserati Logo"] {
+    width: 180px;
+}
+
+img[alt="Mazda Logo"] {
+    width: 160px;
+}
+
+img[alt="McLaren Logo"] {
+    width: 160px;
+}
+
+img[alt="Nissan Logo"] {
+    width: 160px;
+}
+
+img[alt="Pagani Logo"] {
+    width: 190px;
+}
+
+img[alt="Polestar Logo"] {
+    width: 160px;
+}
+
+img[alt="Rivian Logo"] {
+    width: 160px;
+}
+
+img[alt="Rolls-Royce Logo"] {
+    width: 160px;
+}
+
+img[alt="Seat Logo"] {
+    width: 150px;
+}
+
+img[alt="Skoda Logo"] {
+    width: 180px;
+}
+
+img[alt="Subaru Logo"] {
+    width: 150px;
+}
+
+img[alt="Suzuki Logo"] {
+    width: 180px;
+}
+
+img[alt="Toyota Logo"] {
+    width: 150px;
+}
+
+img[alt="Volvo-logo"] {
+    width: 190px;
+}
+
+/* 2ND SEARCH */
+.search-container2{
+    position: relative;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding:0;
+    background: rgba(13, 13, 13, 0.66);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.search-container2 input {
+    width: 700px;
+    padding: 18px 25px;
+    border: 1px solid rgba(24, 220, 232, 0.15);
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.08);
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    box-shadow:
+        inset 0 5px 10px rgba(255, 255, 255, 0.08),
+        0 10px 25px rgba(0, 0, 0, 0.35);
+    transition: all 0.3s ease;
+}
+
+.search-container2 input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.search-container2 button {
+    border: none;
+    border-radius: 50px;
+    padding: 18px 20px;
+    background: #00ffff;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow:
+        inset 0 5px 10px rgba(0, 0, 0, 0.743),
+        0 10px 25px rgba(0, 0, 0, 0.86);
+    transition: all 0.3s ease;
+}
+
+.search-container2 button:hover {
+    transform: translateY(-2px) scale(1.08);
+    box-shadow: 0 0 20px #00ffff;
 }
