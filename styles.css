@@ -887,6 +887,7 @@ img[alt="Alpine A390 GT"] {
   }
 }
 
+/* -------------FOOTER RESPONSIVENESS------------ */
 @media (max-width: 700px) {
   .footer-section {
     padding: 40px 6% 30px;
