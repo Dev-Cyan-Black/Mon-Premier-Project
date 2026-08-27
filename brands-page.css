@@ -564,7 +564,96 @@ img[alt="Volvo-logo"] {
     font-size: 16px;
 }
 
-/* -----------RESPONSIVENESS------------- */
+/* ----------- NAVBAR RESPONSIVENESS ----------- */
+
+@media (max-width: 700px) {
+
+    header {
+        padding: 0 15px;
+    }
+
+    .top-bar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    /* LOGO */
+
+    .logo {
+        width: 120px;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+
+    /* SEARCH + BURGER ROW */
+
+    .search-container {
+        width: 90%;
+        display: flex;
+        justify-content: left;
+        gap: 8px;
+        padding: 10px 0;
+        transform: translateX(-15%);
+        margin-right: auto;
+    }
+
+    .search-container input {
+        width: 90%;
+        min-width: 0;
+        padding: 14px 18px;
+        font-size: 0.9rem;
+    }
+
+    .search-container button {
+        padding: 14px 16px;
+        font-size: 0.85rem;
+    }
+
+    /* BURGER */
+
+    nav {
+        position: absolute;
+        top: 175px;
+        right: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-toggle {
+        font-size: 28px;
+        padding: 0;
+    }
+
+    /* DROPDOWN LINKS */
+
+    .nav-links {
+        top: 50px;
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+        width: 180px;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+    }
+
+    .nav-links li {
+        width: 100%;
+    }
+
+    nav a {
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+}
+
 /* -------------FOOTER RESPONSIVENESS------------ */
 @media (max-width: 700px) {
     .footer-section {
